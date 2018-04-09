@@ -1,0 +1,33 @@
+.gota {
+	position: absolute;
+	background-color: blue;
+	top:20px;
+	left: 750px;
+	height: 200px;
+	border: 7px red;
+	-webkit-animation:coloranim 3s infinite;
+	-webkit-animation-direction:alternate;
+}
+
+
+@-webkit-keyframes coloranim {
+	0%{
+		margin-left: -300px;
+		background-color: transparent;
+		border-radius: 500px;
+
+	}
+
+	25%{
+		background-color: blue;
+		margin-bottom: -100px;
+	}
+
+	50%
+{
+	margin-top: -200px;
+	background-color: red;
+	border-radius:150px;
+}
+
+
